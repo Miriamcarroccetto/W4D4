@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Algoritmo di ricerca</title>
+</head>
+<body>
+
+    <main>
+        <label for="job">Cerca un lavoro</label>
+        <input  type="text" placeholder="Inserisci un lavoro" id="job">
+
+
+        <label for="geo">Cerca una posizione geografica</label>
+        <input type="search" placeholder="Inserisci un luogo" id="geo">
+
+
+        <button id="search" onclick="research()">Cerca</button>
+        <button id="showResult " onclick="showResult()">Mostra risultati</button>
+        
+
+        <ul id="finalList"></ul>
+
+
+    </main>
+
+
+
+    <script src="javascript/script.js"></script>
+    
+</body>
+</html>
